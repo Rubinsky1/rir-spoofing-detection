@@ -4,7 +4,7 @@ A web interface for audio analysis. Upload one or more audio files, play them, a
 
 ## Getting started
 
-Requirements: Node.js 18+ and npm.
+Requirements: Node.js 18+, npm and Python 3 (`python3` must be on the PATH, or set the `PYTHON` environment variable).
 
 Install the frontend dependencies (the backend has none):
 
@@ -35,7 +35,9 @@ Open http://localhost:5173.
 rir-spoofing-detection/
 ├── backend/
 │   ├── package.json
-│   └── server.js            
+│   └── server.js            # HTTP API: POST /api/analyse, runs the Python script
+├── analysis/
+│   └── analyse.py           # Artificial vs. real RIR detection (mock data for now)
 └── frontend/
     ├── index.html
     ├── package.json
