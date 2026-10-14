@@ -27,7 +27,7 @@ cd frontend
 npm run dev
 ```
 
-Open http://localhost:5173. The Vite dev server proxies `/api` requests to the backend.
+Open http://localhost:5173. 
 
 ## Repository structure
 
@@ -35,26 +35,26 @@ Open http://localhost:5173. The Vite dev server proxies `/api` requests to the b
 rir-spoofing-detection/
 ├── backend/
 │   ├── package.json
-│   └── server.js            # HTTP API: POST /api/analyse (mock analysis)
+│   └── server.js            
 └── frontend/
     ├── index.html
     ├── package.json
-    ├── vite.config.js       # Dev server + /api proxy
+    ├── vite.config.js       
     └── src/
-        ├── main.jsx         # Entry point
-        ├── App.jsx          # Page layout, wires components together
+        ├── main.jsx         
+        ├── App.jsx          
         ├── App.module.css
-        ├── index.css        # Global styles and CSS variables
+        ├── index.css        
         ├── hooks/
-        │   ├── useSessions.js   # Session/file state and analysis requests
-        │   └── useWaveform.js   # Decodes audio into waveform peaks
-        └── components/      # Each component has its own folder with X.jsx and X.module.css
-            ├── TopBar/          # Header
-            ├── SessionBar/      # List of sessions, start a new session
-            ├── Sidebar/         # Results of the active session
-            ├── ResultCard/      # Single result (manipulated, score)
-            ├── Pickup/          # File picker / drop zone
-            ├── Player/          # Waveform and audio player per file
-            ├── Waveform/        # Canvas waveform
-            └── AnalyseButton/   # Starts the analysis of all files in a session
+        │   ├── useSessions.js   
+        │   └── useWaveform.js   
+        └── components/      
+            ├── TopBar/          
+            ├── SessionBar/      
+            ├── Sidebar/         
+            ├── ResultCard/      
+            ├── Pickup/          
+            ├── Player/          
+            ├── Waveform/        
+            └── AnalyseButton/   
 ```
