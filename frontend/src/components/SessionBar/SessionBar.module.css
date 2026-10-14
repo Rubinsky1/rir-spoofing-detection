@@ -1,0 +1,14 @@
+.bar { background: var(--card); border-right: 1px solid var(--border); padding: 12px; overflow-y: auto; }
+.add { width: 100%; background: var(--primary); color: #fff; border: 0; border-radius: 6px; padding: 10px; font-size: .95rem; cursor: pointer; margin-bottom: 12px; }
+.list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.item { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 10px; border-radius: 6px; cursor: pointer; border: 1px solid transparent; }
+.item:hover { background: var(--bg); }
+.active { background: #e8efff; border-color: var(--primary); }
+.info { display: flex; flex-direction: column; min-width: 0; }
+.name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: .95rem; }
+.status { font-size: .75rem; color: var(--muted); }
+.analysing { color: var(--primary); }
+.done { color: var(--ok); }
+.error { color: var(--danger); }
+.remove { background: none; border: 0; font-size: 1.2rem; color: var(--muted); cursor: pointer; }
+.remove:hover { color: var(--danger); }

@@ -1,0 +1,4 @@
+.sidebar { background: var(--card); border-left: 1px solid var(--border); padding: 16px; overflow-y: auto; }
+.title { font-size: 1rem; margin: 0 0 12px; }
+.empty { color: var(--muted); font-size: .9rem; }
+.list { display: flex; flex-direction: column; gap: 10px; }

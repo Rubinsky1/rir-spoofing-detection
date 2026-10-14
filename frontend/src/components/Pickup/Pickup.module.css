@@ -1,0 +1,7 @@
+.pickup { width: 100%; max-width: 480px; padding: 48px 24px; text-align: center; background: var(--card); border: 2px dashed #b9c3dc; border-radius: 12px; cursor: pointer; transition: border-color .15s, background .15s; }
+.pickup:hover, .dragging { border-color: var(--primary); background: #f5f8ff; }
+.icon { font-size: 3rem; }
+.text { color: var(--muted); margin: 8px 0 16px; }
+.button { display: inline-block; background: var(--primary); color: #fff; border-radius: 6px; padding: 10px 18px; }
+.compact { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 10px 16px; font-size: 1rem; cursor: pointer; }
+.compact:hover { border-color: var(--primary); }

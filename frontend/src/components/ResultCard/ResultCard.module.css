@@ -1,0 +1,8 @@
+.card { border: 1px solid var(--border); border-radius: 8px; padding: 12px; font-size: .9rem; }
+.name { font-weight: 600; margin-bottom: 8px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.row { display: flex; justify-content: space-between; margin-bottom: 4px; }
+.good { color: var(--ok); }
+.bad { color: var(--danger); }
+.bar { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; margin-top: 6px; }
+.fill { height: 100%; background: var(--ok); }
+.fillBad { background: var(--danger); }

@@ -1,0 +1,2 @@
+.button { background: var(--primary); color: #fff; border: 0; border-radius: 6px; padding: 10px 24px; font-size: 1rem; cursor: pointer; }
+.button:disabled { background: #9fb4e6; cursor: wait; }

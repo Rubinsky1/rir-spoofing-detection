@@ -1,0 +1,10 @@
+{
+  "name": "rir-spoofing-detection",
+  "version": "0.1.0",
+  "description": "Interface voor audio-analyse (RIR spoofing detectie)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC"
+}

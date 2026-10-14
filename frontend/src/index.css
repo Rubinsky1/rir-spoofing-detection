@@ -1,0 +1,20 @@
+:root {
+  --bg: #f2f4f8;
+  --card: #fff;
+  --text: #222;
+  --muted: #667;
+  --primary: #2f6fed;
+  --danger: #d93838;
+  --ok: #1f9d55;
+  --border: #e3e6ee;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; margin: 0; }
+
+body {
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}

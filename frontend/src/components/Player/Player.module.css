@@ -1,0 +1,10 @@
+.player { background: var(--card); border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+.header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.name { font-weight: 600; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.status { font-size: .8rem; color: var(--muted); }
+.analysing { color: var(--primary); }
+.done { color: var(--ok); }
+.error { color: var(--danger); font-size: .85rem; margin: 8px 0 0; }
+.remove { background: none; border: 0; font-size: 1.3rem; color: var(--muted); cursor: pointer; }
+.remove:hover { color: var(--danger); }
+.audio { width: 100%; margin-top: 12px; }

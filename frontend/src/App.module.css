@@ -1,0 +1,6 @@
+.app { display: flex; flex-direction: column; height: 100%; }
+.body { flex: 1; display: grid; grid-template-columns: 240px 1fr 300px; min-height: 0; }
+.main { display: flex; align-items: center; justify-content: center; padding: 24px; overflow: auto; }
+.mainFilled { padding: 24px; overflow: auto; }
+.workspace { width: 100%; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+.actions { display: flex; align-items: center; gap: 12px; }
